@@ -1,0 +1,17 @@
+# Dependency hasil instalasi npm.
+node_modules/
+
+# Hasil kompilasi TypeScript.
+dist/
+
+# File environment yang mengandung rahasia.
+.env
+
+# File log.
+*.log
+
+# File konfigurasi editor lokal.
+.vscode/
+
+.env.*
+!.env.example
