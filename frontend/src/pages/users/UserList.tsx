@@ -602,6 +602,7 @@ function UserList() {
                                 <button
                                   type="button"
                                   onClick={() => handleEdit(user)}
+                                  disabled={isCurrentUser}
                                   className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs font-bold text-amber-700 transition hover:bg-amber-100"
                                 >
                                   ✎ Edit
